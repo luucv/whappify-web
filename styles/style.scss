@@ -1,0 +1,22 @@
+$color-black: #101010;
+$color-gray: #868686;
+
+// Extra small devices (portrait phones, less than 576px)
+$breakpoint-max-xs: 575px;
+// Small devices (landscape phones, less than 768px)
+$breakpoint-max-sm: 767px;
+// Medium devices (tablets, less than 992px)
+$breakpoint-max-md: 991px;
+// Large devices (desktops, less than 1200px)
+$breakpoint-max-lg: 1199px;
+
+:global {
+  @import "vendor/reset";
+  @import "_grid";
+  @import "_typography";
+  @import "_helpers";
+}
+
+body, html {
+  background-color: $color-black;
+}

@@ -1,0 +1,40 @@
+$gaps: (0, 5, 15, 36, 48, 64, 84, 128, 256);
+
+@each $type in ('margin', 'padding') {
+  @each $position in ('bottom', 'top', 'left', 'right') {
+    @each $gap in $gaps {
+      .has-#{$type}-#{$position}-#{$gap} {
+        #{$type}-#{$position}: #{$gap}px;
+      }
+    }
+
+    @each $gap in $gaps {
+      .has-#{$type}-#{$position}-negative-#{$gap} {
+        #{$type}-#{$position}: -#{$gap}px;
+      }
+    }
+  }
+}
+
+
+.vcentered {
+  &__child {
+    display: flex;
+  }
+
+  &__parent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.color {
+  &--gray {
+    color: $color-gray;
+  }
+}
+
+.position--relative {
+  position: relative;
+}
