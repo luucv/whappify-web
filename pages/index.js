@@ -8,7 +8,7 @@ import Privacy from '../components/Privacy';
 const Home = () => (
   <div>
     <Head>
-      <title>Home</title>
+      <title>Whappify - Create Playlists from Whatsapp Chats</title>
       <link rel='icon' href='/favicon.ico' />
     </Head>
 

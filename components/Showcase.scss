@@ -6,4 +6,19 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+}
+
+.giga {
+  font-size: 300px;
+  font-weight: 900;
+  position: absolute;
+  color: #fff;
+  opacity: 0.5;
+  z-index: 1;
+  white-space: nowrap;
+}
+
+.mockup {
+  z-index: 3;
 }
