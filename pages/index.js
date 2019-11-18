@@ -4,6 +4,7 @@ import Hero from '../components/Hero'
 import '../styles/style.scss';
 import Showcase from '../components/Showcase';
 import Privacy from '../components/Privacy';
+import Footer from '../components/Footer';
 
 const Home = () => (
   <div>
@@ -15,6 +16,7 @@ const Home = () => (
     <Hero />
     <Showcase />
     <Privacy />
+    <Footer />
   </div>
 )
 

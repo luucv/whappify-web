@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  
+  li {
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+    p {
+      font-size: 12px !important;
+      color: rgba(255,255,255,0.52);
+    }
+  }
+}
